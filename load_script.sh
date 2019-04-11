@@ -1,0 +1,1 @@
+avrdude -c usbtiny -p m32 -b 19200 -U flash:w:main.hex -F

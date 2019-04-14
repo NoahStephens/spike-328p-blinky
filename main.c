@@ -17,9 +17,9 @@ int main()
 
 	while (1)
 	{
-		// toggle led
+		// toggle led PB1 = Pin 13 on Arduino Pro
 		PORTB ^= _BV(PB5);
-		_delay_ms(1000);
+		_delay_ms(2000);
 
 	}
 }
